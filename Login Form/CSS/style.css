@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2),whitesmoke),url(/Rental_Management_System/Images/Banner.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+ .Login label{
+     color:red;
+     font-size: 35px;
+     margin-left: 50px;
+     font-weight: bolder;
+ }
+ .frm-label{
+    font-weight: bold;
+ }
+
+.frm-lbl-1{
+    margin-top: 100px;
+}
+
+.head{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    /* color:blue; */
+    
+}
+
+.frm{
+    margin-top: 50px;
+    width: 400px;
+    height: 550px;
+    /* background-color: grey; */
+    margin-left: 50px;
+}
+.sub-btn{
+    width: 150px;
+    height: 40px;
+    margin-left: 130px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: lightseagreen;
+}
+.frm .frm-input{
+    align-content: center;
+    margin: 20px;
+    height: 30px;
+    width: 250px;
+    margin-left: 70px;
+}
+
+.Login{
+    display: flex;
+    flex-direction: column;
+}
