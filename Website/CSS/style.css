@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 60px;
+    background-color: burlywood;
+}
+.new{
+    font-weight: 100%;
+    height: 80px;
+    background-color: thistle;
+
+}
+.navigation{
+    display: flex;
+    
+}
+.navi ul{
+    display: flex;
+}
+
+.navigation h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navigation nav ul{
+     list-style: none;   
+     margin: 10px;
+     float: right;
+     margin-left: 700px;
+     margin-bottom: 50px;
+}
+
+.navigation nav ul a {
+     color: black;
+     display: block;
+     text-decoration: none;
+     margin: 15px;
+     font-size: 30px;
+     
+}
+
+.container-2{
+    display: flex;
+    margin-top: 30px;
+}
+
+.para{
+    float: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image{
+    margin-top: 50px;
+}
+
+.para h1{
+    color: rgb(86, 226, 43);
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about-us{
+    display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.about{
+    width: 300px;
+    height: 300px;
+    background-color:rosybrown;
+    margin: 10px;
+}
+
+.head h2{
+    text-align: center;
+    background-color:darkcyan;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.batches,.batches-1{
+    display: flex;
+    justify-content: center;
+}
+
+.batch{
+    height: 300px;
+    width: 300px;
+    background-color: darksalmon;
+    margin: 20px;
+}
+
+.class-batch{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.apply{
+    margin-top: 100px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.contact-us{
+    width: 400px;
+    height: 550px;
+    justify-content: center;
+}
+
+.frm{
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    background-color: dimgray;
+    margin-left: 500px;
+    margin-left: 50px;
+}
+
+.frm .frm-input{
+    align-content: center;
+    margin: 20px;
+    height: 30px;
+    width: 250px;
+    margin-left: 70px;
+}
+
+.frm-lbl-1,.frm-lbl-2,.frm-lbl-3,.frm-lbl-4{
+   font-size: 30px;
+}
+
+.frm-label{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.sub-btn{
+    width: 100px;
+    height: 40px;
+    margin-left: 130px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:deeppink;
+}
+
