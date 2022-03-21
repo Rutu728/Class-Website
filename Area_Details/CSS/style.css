@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    height: 100vh;
+     background-size: cover;
+    background-position: center center;
+    align-content: center;
+}
+
+.Area{
+   display: flex;
+   width: 600px;
+   height: 550px;
+   background-color:rgb(155, 182, 233);
+   margin-left: 500px;
+   margin-top: 100px;
+}
+
+.Area label{
+    color:red;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.frm-label{
+    font-weight: bold;
+ }
+
+ .frm-lbl-3{
+    margin-top: 100px;
+}
+
+.head{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    background-color:aqua;
+    /* color:blue; */
+    
+}
+
+.frm{
+    margin-top: 50px;
+    width: 400px;
+    height: 550px;
+    /* background-color: grey; */
+    margin-left: 100px;
+}
+
+.sav-btn{
+    width: 150px;
+    height: 40px;
+    margin-left: 130px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(230, 120, 120);
+}
+
+.frm_Area ID,.frm-input,.frm-Name{
+    margin: 20px;
+}
+
+.frm-input{
+    height: 30px;
+    width: 200px;
+}
