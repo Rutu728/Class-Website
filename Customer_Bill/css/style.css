@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#banner1{
+    height: 1000px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.2),whitesmoke),url(../Images/Bill.jpg);
+    background-position: center center;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    background-color:springgreen;
+   
+}
+
+.navbar{
+    padding: 5px 10px;
+    line-height: 80px;
+}
+
+.navbar label{
+    font-size: 35px;
+    color: black;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar label:hover{
+    color: rgb(76, 150, 247);
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color:black;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(93, 93, 236);
+    transition: 0.5s;
+}
+.head h1{
+    margin-left:500px;
+    font-size: 50px;
+}
+.container{
+    width: 500px;
+    height: 700px;
+    background-color: darkcyan;
+    margin-left: 20px;
+    margin-left: 300px;
+    border-radius: 15px;
+}
+
+.maincontainer{
+    /* display: flex; */
+    display: block;
+}
+.frm-lbl label{
+    font-size: 30px;
+    margin-left: 65px;
+}
+.frm-lbl input{
+    font-size: 25px;
+    margin-left: 90px;
+}
+.frm-lbl-1 label{
+    font-size: 30px;
+    margin-left: 65px;
+}
+.frm-lbl-1 input{
+    font-size: 25px;
+    margin-left: 90px;
+}
+.sub-btn{
+    width: 150px;
+    height: 40px;
+    margin-left: 130px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:red;
+   
+}
+.Button{
+    display: flex;
+}
+
