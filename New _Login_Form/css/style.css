@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #F2CDAC;
+}
+
+
+nav{
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    background-color: #FF5F5D;
+   
+}
+
+.navbar{
+    padding: 5px 10px;
+    line-height: 80px;
+}
+
+.navbar label{
+    font-size: 35px;
+    color: black;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar label:hover{
+    color: rgb(76, 150, 247);
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color:black;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(93, 93, 236);
+    transition: 0.5s;
+}
+.head h1{
+    margin-left:100px;
+    font-size: 40px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.Container{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: 350px;
+    box-shadow: 3px 3px red, -1em 0 .4em rgb(24, 24, 201);
+    border-radius: 7px;
+}
+
+.banner{
+    height: 400px;
+    width: 500px;
+    background-image: url(../images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+}
+.maincontainer{
+    display: flex;
+    margin-top: 50px;
+}
+.frm-lbl-1 label,.frm-lbl-2 label{
+    color:black;
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: bolder;
+    display: block;
+
+}
+
+.frm-lbl-1{
+    padding-top: 80px;
+}
+
+.frm-lbl-1 input , .frm-lbl-2 input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+
+.frm-lbl-1,.frm-lbl-2{
+    margin-left: 50px;
+}
+.sub-btn{
+    width: 70px;
+    height: 35px;
+    margin-left: 140px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: rgb(243, 104, 104);
+}
+
+
